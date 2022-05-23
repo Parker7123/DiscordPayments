@@ -10,8 +10,16 @@ repositories {
 }
 
 dependencies {
+    implementation 'com.squareup.okhttp3:okhttp:4.9.3'
+    implementation 'com.h2database:h2:2.1.212'
+    implementation 'com.jsoniter:jsoniter:0.9.19'
+    implementation 'com.google.guava:guava:31.1-jre'
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    annotationProcessor 'org.projectlombok:lombok:1.18.24'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    implementation 'org.javacord:javacord:3.4.0'
+    runtimeOnly 'org.apache.logging.log4j:log4j-core:2.17.0'
 }
 
 test {
