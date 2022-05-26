@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75fad54c-7b17-4fdb-b8c7-abb4b652708a" name="Changes" comment="???">
+    <list default="true" id="75fad54c-7b17-4fdb-b8c7-abb4b652708a" name="Changes" comment="domain handling&#10;shop handling not ready">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/token.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/paymentbot/api/ApiProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/paymentbot/api/ApiProcessor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +61,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -172,7 +177,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DiscordPayments [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DiscordPayments [build]" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -219,7 +224,6 @@
         <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.ApiProcessorTest.sendInvoiceRequest" />
         <item itemvalue="Gradle.ApiProcessorTest" />
-        <item itemvalue="Gradle.DiscordPayments [build]" />
         <item itemvalue="Gradle.DiscordPayments [openApiGenerate]" />
       </list>
     </recent_temporary>
@@ -252,7 +256,7 @@
       <workItem from="1653214223147" duration="980000" />
       <workItem from="1653301942633" duration="644000" />
       <workItem from="1653313793773" duration="57000" />
-      <workItem from="1653602648795" duration="1223000" />
+      <workItem from="1653602648795" duration="1829000" />
     </task>
     <task id="LOCAL-00001" summary="???">
       <created>1653302542545</created>
@@ -261,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653302542545</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="domain handling&#10;shop handling not ready">
+      <created>1653605275498</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653605275499</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +291,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="???" />
-    <option name="LAST_COMMIT_MESSAGE" value="???" />
+    <MESSAGE value="domain handling&#10;shop handling not ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="domain handling&#10;shop handling not ready" />
   </component>
 </project>
