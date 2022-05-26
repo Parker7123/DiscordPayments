@@ -24,7 +24,7 @@ public class Main {
     public static void main(String[] args) throws NoSuchFieldException, SQLException, ClassNotFoundException {
         var database = new MainDatabase();
         DiscordPaymentBot discordPaymentBot =
-                new DiscordPaymentBot("TOKEN",
+                new DiscordPaymentBot("ODQxMzkzNzU4ODAwMDUyMjg0.YJmHAA.g1Z60YLU2zMgX_Q4b-kmrbouiMc",
                         new BuyButtonDmProcessor());
 
         discordPaymentBot.sendPaymentMessage("855424831745818685","buy the bot");
